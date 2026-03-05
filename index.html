@@ -999,7 +999,10 @@
               <h2>Как играет человек</h2>
               <p><strong>osu!</strong> — ритм-игра: круги появляются на экране, игрок наводит курсор и кликает в такт музыке.</p>
               <p>Человек использует резкие «снапы» — быстрые прямолинейные броски курсора к следующей цели.</p>
-              <div class="video-box">[ВИДЕО: геймплей человека]</div>
+              <video controls playsinline preload="metadata"
+                     style="width:100%; border-radius:8px; border:1px solid #222;">
+                <source src="assets/osu!human.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </section>
@@ -1011,7 +1014,10 @@
               <h2>Cursor Dance Bot</h2>
               <p>Применим $C^2$-сплайны к движению курсора.</p>
               <p>Бот «знает» координаты и тайминги всех будущих нот. Он строит плавную траекторию и <em>танцует</em> по ней, попадая в каждый круг точно в нужный момент.</p>
-              <div class="video-box">[ВИДЕО: Cursor Dance бота]</div>
+              <video controls playsinline preload="metadata"
+                     style="width:100%; border-radius:8px; border:1px solid #222;">
+                <source src="assets/osu!bot.mp4" type="video/mp4">
+              </video>
               <p class="hint">Справа — симуляция: курсор летит по сплайну через «ноты».</p>
             </div>
           </div>
@@ -2863,4 +2869,5 @@
     })();
   </script>
 </body>
+
 </html>
